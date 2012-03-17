@@ -1,0 +1,17 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+      
+ <ul>
+        #{list books, as:'book'}
+    <li><a href="@{'Books.show(book.id)'}">${book.tytuł}</a></li>
+   #{/list}
+</ul>
+          
+    </body>
+</html>
