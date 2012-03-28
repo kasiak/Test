@@ -3,6 +3,7 @@
  * and open the template in the editor.
  */
 package controllers;
+import java.util.List;
 import models.Książka;
 import play.mvc.*;
 /**
@@ -14,12 +15,7 @@ public class Librarian extends Controller{
      public static void articles() {
        
         render();
-    }
-     
-     public static void list() {
-       
-        render();
-    }
-     
-     
+      
+    
+     }
 }

@@ -124,3 +124,16 @@ h4 {font-size:1.54em;line-height:1.2em;color:#fff;padding:14px 0 8px 0;font-weig
 .carousel-box .prev a, .carousel-box .next a {cursor:pointer}
 .carousel-box ul {width:900px;margin-left:20px !important}
 .carousel-box ul li {width:288px;float:left;border:0;margin-right:28px;position:relative;padding-top:8px}
+#loading {
+    position:absolute;
+    width:300px;
+    top:50%;
+    left:50%;
+    margin-left:-150px;
+    text-align:center;
+    padding:7px 0 0 0;
+    font:bold 11px Arial, Helvetica, sans-serif;
+}
+
+
+

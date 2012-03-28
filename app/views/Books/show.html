@@ -1,4 +1,4 @@
-<table>
+<!--<table>
     <tr>
         <td>Tytuł: </td>
         <td>${book.tytuł}</td>
@@ -7,7 +7,23 @@
         <td>Autor: </td>
         <td>${book.autor}</td>
     </tr>
+</table>-->
+
+ #{list book, as:'b'}
+<table border="1">   
+    <tr>
+<th>Tytuł</th>
+<th>Autor</th>
+
+</tr>
+     <tr>
+       
+        <td>${b.tytuł}</td>
+        <td>${b.autor}</td>
+    </tr>
 </table>
+    #{/list}
+
 <hr />
 <p>
     <a href="@{Librarian.articles()}">Back to main site</a>

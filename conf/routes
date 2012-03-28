@@ -3,19 +3,18 @@
 # ~~~~
 
 # Home page
-GET     /                                      Application.index
-GET     /Home                                     Application.index
-GET     /Admin                                   Admin.sitemap
-GET     /Librarian                                 Librarian.articles
-GET     /Reader                                   Reader.aboutus
-GET     /Order                                   Order.contactus
-GET      /Books/show/{id}                                Books.show
-GET    /List                                    Librarian.list
-# Ignore favicon requests
-GET     /favicon.ico                            404
+GET     /                                       Application.index
+GET     /Home                                   Application.index
+GET     /books/show/{id}                        Books.show
+GET     /Librarian                              Librarian.articles
+GET     /List                                   Librarian.list
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+# Import CRUD routes
+*     /admin            module:crud
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
+

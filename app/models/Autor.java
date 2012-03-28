@@ -13,7 +13,7 @@ public class Autor extends Model{
     public String nazwisko;
 
     @Override
-    public String toString(){
-        return nazwisko;
-    }
+     public String toString(){
+         return nazwisko+" " + imię;
+     }
 }

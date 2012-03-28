@@ -1,3 +1,15 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+imię=Imię
+nazwisko=Nazwisko
+email=Adres e-mail
+adres=Adres zamieszkania
+nazwa=Nazwa
+haslo=Hasło
+tytuł=Tytuł
+ilośćStron=Ilość stron
+rokWydania=Rok wydania
+isbn=ISBN
+autor=Autor
+wydawnictwo=Wydawnictwo
